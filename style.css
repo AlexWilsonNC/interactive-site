@@ -1,3 +1,57 @@
 * {
     
 }
+
+body {
+    background: url(assets/30219.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0px 0px 2px 0px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 20px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 60px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-family: "Arial Rounded MT", Helvetica, sans-serif;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+#nav-right {
+    float: right;
+    margin-right: 30px;
+}
+
+nav img {
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+
+button {
+    border-radius: 50%;
+    height: 56px;
+    width: 56px;
+    border-style: none;
+    position: absolute;
+    bottom: 30px;
+    left: 48%;
+    background: linear-gradient(to bottom right, brown, yellow);
+}
+
